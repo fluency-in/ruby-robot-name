@@ -1,4 +1,4 @@
-# Robot Name
+# Ruby: Robot Name
 
 Write a program that manages robot factory settings.
 
@@ -16,6 +16,20 @@ Random names means a risk of collisions. Your solution should not allow
 the use of the same name twice when avoidable. In some exercism language
 tracks there are tests to ensure that the same name is never used twice.
 
+The tests use the Minitest testing framework. To install it run the command:
+
+    gem install minitest
+
+Run the tests with the `ruby` command:
+
+    ruby robot_name_test.rb
+
+## Resources
+
+If you have never used Minitest, check out [Intro to TDD][tdd] tutorial from Jumpstart Lab.
+
+[tdd]: http://tutorials.jumpstartlab.com/topics/testing/intro-to-tdd.html
+
 ## Source
 
 A debugging session with Paul Blackwell at gSchool. [http://gschool.it](http://gschool.it)
@@ -24,3 +38,6 @@ This exercise is from the [Ruby][ruby] track on [Exercism][exercism]
 
 [exercism]: http://exercism.io
 [ruby]: http://exercism.io/languages/ruby
+
+
+
